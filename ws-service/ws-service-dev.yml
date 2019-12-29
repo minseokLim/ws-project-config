@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: "jdbc:mariadb://database:3306/ws_service"
+    username: "root"
+    password: "mslim8803"
+    dbcp2:
+      test-while-idle: true  
+      validation-query: "SELECT 1"
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+    show-sql: true   
+    hibernate:
+      ddl-auto: update
