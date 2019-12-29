@@ -2,7 +2,7 @@ spring:
   datasource:
     url: "jdbc:mariadb://localhost:3306/ws_service"
     username: "mslim"
-    password: "{cipher}3700928ddb24c026683c547c4603f3e43dd4ecea80cf0bec30cc99208d99d743"
+    password: "{cipher}1604fa8b8a1d0565c0365f6ef704a024fa509ba7463954c9880dcee4f913a401"
     dbcp2:
       test-while-idle: true  
       validation-query: "SELECT 1"
