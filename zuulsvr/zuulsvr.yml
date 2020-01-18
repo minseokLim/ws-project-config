@@ -6,11 +6,3 @@ management:
     web:
       exposure:
         include: "*"
-        
-hystrix:
-  command:
-    confsvr:
-      execution:
-        isolation:
-          thread:
-            timeoutinmilliseconds: 5000
