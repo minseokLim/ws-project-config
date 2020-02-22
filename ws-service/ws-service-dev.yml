@@ -17,3 +17,6 @@ spring:
 logging:
   level:
     com.wsproject.wsservice: debug
+    
+custom:
+  jwt-signkey: 123@#$
