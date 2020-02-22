@@ -19,4 +19,4 @@ logging:
     com.wsproject.userservice: debug
     
 custom:
-  jwt-signkey: 123@#$
+  jwt-signkey: "{cipher}73e168f04e3f17ce08518b76f28cbf303a18b6b8700cfb0fcfa1f338f7fc56b6"
