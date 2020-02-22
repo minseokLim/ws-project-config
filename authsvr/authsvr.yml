@@ -25,3 +25,4 @@ spring:
 custom:
   api-gateway-ip: http://localhost:5555
   jwt-signkey: 123@#$
+  base-uri: /api/authsvr
